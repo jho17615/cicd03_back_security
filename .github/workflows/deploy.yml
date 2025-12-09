@@ -3,7 +3,7 @@ name: CI/CD Pipeline  # GitHub Actions 워크플로우의 이름
 on:
   push:
     branches:
-      - main  # main 브랜치에 push 이벤트가 발생했을 때 워크플로우 실행
+      - main  # main 브랜치에 push 이벤트가 발생했을 때 워크플로우 실행111
 
 jobs:
   build-and-deploy:
